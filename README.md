@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_send_and_receive_sei_message);
+        setContentView(R.layout.activity_main);
 
         joystickView = findViewById(R.id.joystickView);
         joystickView.setJoystickListener(new JoystickView.JoystickListener() {
