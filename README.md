@@ -14,6 +14,7 @@ https://github.com/engrpanda/joystick_sample/assets/53995355/21cdb381-dd26-47d1-
 # Sample code 
 
 ```
+
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
@@ -69,10 +70,11 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
         // Implement any touch handling logic if needed
         return false;
     }
-```
+
     private void showToast(String message) {
         Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
     }
 }
 
 
+```
